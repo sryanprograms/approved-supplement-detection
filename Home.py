@@ -22,7 +22,7 @@ def run():
     if st.session_state.api_key == "":
         st.sidebar.caption(":red[An OpenAI API key is required to run the tests.]")
 
-    st.write("# GPT-4V Demos")
+    st.write("# NCAA Safe Supplement Detector")
     st.write("\n")
     st.info(
         "This mobile-friendly web app provides some basic demos to test the vision capabilities of GPT-4V."
