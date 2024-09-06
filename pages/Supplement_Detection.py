@@ -104,12 +104,12 @@ def run():
         st.markdown(st.session_state.camera_caption)
 
 
-st.set_page_config(page_title="GPT-4V Camera", page_icon="📷")
+st.set_page_config(page_title="Supplement Scanner", page_icon="💊")
 components.inc_sidebar_nav_height()
 st.write("# 📷 Camera")
-st.write("Take a photo with your device's camera and generate a caption.")
+st.write("Take a clear photo or upload a photo of the supplement you'd like to scan")
 st.info(
-    "This is a test of the OpenAI GPT-4V preview and is not intended for production use."
+    "This is a MVP proof of concept for a supplement scanner and all responses should be double checked to ensure accuracy."
 )
 
 run()
