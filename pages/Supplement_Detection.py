@@ -106,7 +106,7 @@ def run():
 
 st.set_page_config(page_title="Supplement Scanner", page_icon="💊")
 components.inc_sidebar_nav_height()
-st.write("# 📷 Camera")
+st.write("# 💊Supplement Scanner")
 st.write("Take a clear photo or upload a photo of the supplement you'd like to scan")
 st.info(
     "This is a MVP proof of concept for a supplement scanner and all responses should be double checked to ensure accuracy."
