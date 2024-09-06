@@ -25,7 +25,7 @@ def run():
     st.write("# NCAA Safe Supplement Detector")
     st.write("\n")
     st.info(
-        "This mobile-friendly web app provides some basic demos to test the vision capabilities of GPT-4V."
+        "This mobile-friendly web app with original code created by [localroot](https://github.com/logicalroot) and modified by [Sierra Ryan](https://github.com/sryanprograms) for use as a supplement scanner to help athlete determine if their supplements are NCAA apporved!"
     )
     st.info("Open them from the sidebar!", icon="↖️")
     st.caption(
